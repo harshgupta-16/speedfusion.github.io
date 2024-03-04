@@ -2,6 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.659);
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 50px;
+}
 body {
     padding: 0px;
     margin: 0px;
@@ -152,7 +162,7 @@ body {
     border-bottom: 0px solid cyan;
     border-bottom-right-radius: 100px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     line-height: 40px;
     padding: 10px 30px 10px 30px;
@@ -188,8 +198,13 @@ body {
     width: 200px;
     height: 200px;
     margin: auto;
-    box-shadow: 0px 0px 10px 2px white;
+    box-shadow: 0px 0px 8px 4px white;
     transition: all 0.3s ease-in-out 0s;
+}
+
+.bikeslogo{
+    width: 200px;
+    height: 200px;
 }
 
 .box:hover {
